@@ -21,4 +21,5 @@ urlpatterns = [
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', HelloT2SRApp.views.index, name='index'),
     url(r'^home$', HelloT2SRApp.views.index, name='home'),
+    url(r'^about$', HelloT2SRApp.views.about, name='about'),
 ]

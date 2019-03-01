@@ -44,12 +44,16 @@
     <Compile Include="T2SRWebProject\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloT2SRApp\static\site.css" />
+    <Content Include="HelloT2SRApp\templates\HelloT2SRApp\about.html" />
     <Content Include="HelloT2SRApp\templates\HelloT2SRApp\index.html" />
+    <Content Include="HelloT2SRApp\templates\HelloT2SRApp\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HelloT2SRApp\" />
     <Folder Include="HelloT2SRApp\migrations\" />
+    <Folder Include="HelloT2SRApp\static\" />
     <Folder Include="HelloT2SRApp\templates\" />
     <Folder Include="HelloT2SRApp\templates\HelloT2SRApp\" />
     <Folder Include="T2SRWebProject\" />
