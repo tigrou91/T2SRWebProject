@@ -3,6 +3,7 @@ Definition of urls for T2SRWebProject.
 """
 
 from django.conf.urls import include, url
+import HelloT2SRApp.views
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -18,4 +19,6 @@ urlpatterns = [
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', HelloT2SRApp.views.index, name='index'),
+    url(r'^home$', HelloT2SRApp.views.index, name='home'),
 ]
